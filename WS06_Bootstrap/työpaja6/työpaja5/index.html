@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eliaksen eka html sivu</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      h1 {
+        color: green;
+      }
+    </style>
+
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JavaScript (place before closing </body> tag) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  </head>
+
+  <body>
+    <h1>Elias</h1>
+    <p>Olen 22-vuotias tuusulasta.</p>
+    <img src="./images copy/wso1image.jpg" width="100" alt="Kuvalinkki rikki..." />
+
+    <h2>Harrastuksia</h2>
+    <ol>
+      <li>Juoksu</li>
+      <li>Kuntosali silloin tällöin</li>
+      <li>Penkkiurheilu</li>
+    </ol>
+
+    <h2>Harrastuksia</h2>
+    <ul>
+      <li>First item</li>
+      <li>Second item</li>
+      <li>Third item</li>
+    </ul>
+
+    <a
+      href="https://www.finnair.com/fi-fi/flights/from/hel/lennot-kohteesta-Helsinki"
+      >Varaa lennot Finnair</a
+    >
+
+    <table>
+      <tr>
+        <th>Käynnissä olevat ja menneet kurssit</th>
+
+        <th></th>
+      </tr>
+      <tr>
+        <td>Websivuston kehittäminen, Liiketoimintaympäristöt</td>
+        <td>Enlanti, Osaamisidentiteetti</td>
+      </tr>
+      <tr>
+        <td>Asiantuntijaviestintä, Digitaalisten palveluiden kehittäminen</td>
+        <td>ICT infra, Osaamisidentiteetti</td>
+      </tr>
+    </table>
+
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h1 style="color: rgb(85, 95, 243)">inline css</h1>
+
+    <div class="content-box">
+      <h3>Sample Heading</h3>
+      <p>This is a sample paragraph inside a div element.</p>
+    </div>
+
+    <button class="transition-button">Hover me</button>
+    <div class="animation-box"></div>
+    <ul class="pseudo-list">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+    <img
+      src="./images/image.jpg"
+      alt="./images/image.jpg"
+      class="./images/image.jpg"
+    />
+    <blockquote class="quote">Moi mitä kuuluu?</blockquote>
+
+    <header>
+      <h1>Verkkosivuni</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Tässähän alkaa jo vähän oppimaan tätä :D.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright 2025</p>
+    </footer>
+
+    <div class="grid-container">
+      <div class="grid-item">En</div>
+      <div class="grid-item">Ole</div>
+      <div class="grid-item">Varma</div>
+      <div class="grid-item">Mitä tähän</div>
+      <div class="grid-item">Pitäisi kirjoittaa</div>
+      <div class="grid-item">Mutta ainakin toimii :)</div>
+    </div>
+    <div class="flex-container">
+      <div class="box">Kolme flexboxia</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
+
+    <div class="responsive-box">Resize the window to see the effect</div>
+
+    <div class="responsive-container">
+      <div class="column">Column 1</div>
+      <div class="column">Column 2</div>
+    </div>
+
+<img src="./images copy/IMG_3950.jpg" width="700" alt="Responsive Image" class="responsive-image">
+
+
+<div class="media-query-box">Resize the window to see the effect</div>
+
+<nav class="responsive-nav">
+      <button class="menu-toggle">☰ Menu</button>
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Brand</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 col-12">Column 1</div>
+    <div class="col-md-4 col-12">Column 2</div>
+    <div class="col-md-4 col-12">Column 3</div>
+  </div>
+</div>
+
+<button class="btn btn-primary">Primary</button>
+<button class="btn btn-secondary">Secondary</button>
+<button class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+
+<div class="card" style="width: 18rem;">
+  <img src="path/to/image.jpg" class="card-img-top" alt="Card Image">
+  <div class="card-body">
+    <h5 class="card-title">Card Title</h5>
+    <p class="card-text">This is a simple card example using Bootstrap. Nyt en ymmärrä </p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+
+<div class="alert alert-warning" role="alert">
+  This is a warning alert—check it out!
+</div>
+
+<div class="alert alert-primary" role="alert">
+  A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-secondary" role="alert">
+  A simple secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+
+  </body>
+</html>
