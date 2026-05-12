@@ -1,0 +1,30 @@
+p {
+      color: rgb(0, 0, 1);
+    }
+    
+    body {
+      background-color: rgb(225, 225, 225);
+    }
+    
+    h1 {
+      font-size: 2em;
+    }.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.responsive-nav .nav-list {
+      display: flex;
+      list-style: none;
+    }
+    
+    @media (max-width: 600px) {
+      .responsive-nav .nav-list {
+        display: none;
+      }
+    
+      .responsive-nav .menu-toggle {
+        display: block;
+      }
+    }
+    
