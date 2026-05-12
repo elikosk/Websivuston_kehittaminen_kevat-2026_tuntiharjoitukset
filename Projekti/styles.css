@@ -27,4 +27,16 @@ p {
         display: block;
       }
     }
-    
+    nav ul {
+  display: flex;
+  gap: 100px;   
+}
+  .flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h2 {
+  font-size: 1em;
+}
