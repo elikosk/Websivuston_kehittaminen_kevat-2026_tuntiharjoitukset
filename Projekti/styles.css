@@ -41,3 +41,8 @@ h2 {
   font-size: 1em;
 }
 
+.responsive-image {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+}
